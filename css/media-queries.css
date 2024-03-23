@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+ .proyects-main-container {
+        grid-template-columns: 1 fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container .profile-container {
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+    -blogs-posts-container .posts-container {
+        max-width: 95%;
+    }
+}
